@@ -16,7 +16,8 @@
         <%= link_to "Demo App", root_path, id: "logo" %>
         <nav>
           <ul class="nav navbar-nav pull-right">
-            <li><%= link_to "Home",   root_path %></li>
+            <li><%= link_to "Users",   users_path %></li>
+            <li><%= link_to "Tweets",   tweets_path %></li>
             <li><%= link_to "Help",   help_path %></li>
           </ul>
         </nav>
@@ -25,14 +26,13 @@
     <div class="container">
     
     <%= yield %>
-    
-      <footer class="footer">
+          <footer class="footer">
         <small>
-          Intro To Code
+          My First App
         </small>
         <nav>
           <ul>
-            <li><%= link_to "Contact", 'http://www.twitter.com/joewadcan' %></li>
+            <li><%= link_to "Please Don't Press", 'https://en.wikipedia.org/wiki/Neon_Genesis_Evangelion' %></li>
           </ul>
         </nav>
       </footer>
